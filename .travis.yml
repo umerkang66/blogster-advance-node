@@ -28,7 +28,6 @@ install:
   # this will also install the client dependencies. checkout out the package.json file
   - npm run build
 script:
-  - nohup mongod &
   # tell some scripts that will be executed at the command line
   # "&" means take this command and run the sub_shell (in the background), process will be killed when the shell is terminated, that where next nohup comes in
   # "nohup" means that if the shell (command line) is terminated don't terminate the start process, sometimes travis kill the terminals
