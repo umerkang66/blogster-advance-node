@@ -5,7 +5,7 @@ node_js:
   - '16'
 # which operating system should be in the virtual machine
 # trusty is a small version of linux distribution, which is well tailored for running code
-dist: trusty
+dist: ubuntu
 # our code depends on these two services
 services:
   - mongodb
