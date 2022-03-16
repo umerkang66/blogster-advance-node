@@ -3,8 +3,6 @@ module.exports = {
     '70265989829-0t7m7ce5crs6scqd3t0t6g7pv83ncaii.apps.googleusercontent.com',
   googleClientSecret: '8mkniDQOqacXtlRD3gA4n2az',
   mongoURI: 'mongodb://127.0.0.1:27017/blog_ci',
-  // mongoURI:
-  //   'mongodb+srv://ugulzar4512:ugulzar4512@cluster0.alv3r.mongodb.net/blog_ci?retryWrites=true&w=majority',
   cookieKey: '123123123',
   redisUrl: 'redis://localhost:6379',
 };
