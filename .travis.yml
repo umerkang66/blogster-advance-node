@@ -34,5 +34,5 @@ script:
   - nohup npm run start &
   # just sit around and wait for 3 seconds, before start any tests
   # sleep 3 is just a linux command, linux shell will pause for 3 seconds
-  - sleep 3
+  - sleep 15
   - npm run test
