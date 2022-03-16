@@ -5,6 +5,7 @@ const clearCache = require('../middlewares/clearCache');
 const Blog = mongoose.model('Blog');
 
 module.exports = app => {
+  // Param can get any id and send that blog with that id
   app.get('/api/blogs/:id', requireLogin, async (req, res) => {
     const blog = await Blog.findOne({
       _user: req.user.id,
