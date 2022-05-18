@@ -1,3 +1,4 @@
+// safe-buffer, and keygrip is installed by cookie-session
 const Buffer = require('safe-buffer').Buffer;
 const Keygrip = require('keygrip');
 const keys = require('../../config/keys');
