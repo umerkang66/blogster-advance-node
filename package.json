@@ -1,7 +1,7 @@
 {
-  "name": "blogster-advance-node",
+  "name": "blogster-advance-node-copy",
   "version": "1.0.0",
-  "description": "Advance node application",
+  "description": "Advance node project from stephen grider advance node course",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -35,14 +35,6 @@
     "redis": "^4.0.4",
     "uuid": "^3.2.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/umerkang66/blogster-advance-node.git"
-  },
-  "author": "Umer Kang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/umerkang66/blogster-advance-node/issues"
-  },
-  "homepage": "https://github.com/umerkang66/blogster-advance-node#readme"
+  "author": "",
+  "license": "ISC"
 }

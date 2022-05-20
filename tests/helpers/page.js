@@ -8,7 +8,7 @@ class CustomPage {
     // By default launch will happens in headless mode (without UI)
     const browser = await puppeteer.launch({
       // Should be false in dev, and true in ci, tests are no longer exist in prod
-      headless: true,
+      headless: false,
       // This will dramatically decrease the time to run the test
       args: ['--no-sandbox'],
     });

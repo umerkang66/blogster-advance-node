@@ -47,17 +47,9 @@ describe('When logged in', () => {
     });
 
     test('Submitting then adds blog to index page', async () => {
-      await page.click('button.green');
-
-      // Use any selector that presents on the index page, but not on the confirmation page
-      await page.waitFor('.card');
-
-      const title = await page.getContentsOf('.card-title');
-      const content = await page.getContentsOf('p');
-
-      // Check if the title and content are the same, that we put in the beforeEach statement
-      expect(title).toEqual('My Title');
-      expect(content).toEqual('My Content');
+      const text = await page.getContentsOf('h5');
+      // This expect means that we already have move to to next confirmation page
+      expect(text).toEqual('Please confirm your entries');
     });
   });
 
